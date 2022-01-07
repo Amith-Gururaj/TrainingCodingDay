@@ -32,7 +32,7 @@ public class OrgController
 		}
 		
 		@GetMapping(path="/getempbyid")
-		public Employee_Details getEmpById(@RequestParam int id)
+		public Employee_Details getEmployeeById(@RequestParam int id)
 		{
 			return obj.getEmployeeById(id);
 		}
